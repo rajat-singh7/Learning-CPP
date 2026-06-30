@@ -81,3 +81,11 @@ Cannot use C++ keywords (int, class, return, etc.).
 No spaces or special characters are allowed.
 Avoid starting with _ followed by uppercase (reserved for compiler/system).
 # Day.02
+# Day.03
+# Control Stucture In C++
+1.Sequence Stucture:
+The sequence structure is the simplest form of control structure. It involves executing statements one after the other in a linear fashion. This is the default mode of execution in any program.
+2.Selection structure:
+Selection structures allow the program to choose different paths of execution based on conditions. The primary selection structures in C++ are if, if-else, and switch statements.
+3.Loop Structure:
+Iteration structures, or loops, allow the program to execute a block of code multiple times. The primary iteration structures in C++ are for, while, and do-while loops.
