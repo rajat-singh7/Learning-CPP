@@ -124,3 +124,14 @@ Graph and Tree Representations: Arrays are used in adjacency matrices for graphs
 Buffers and Queues: Arrays act as data buffers for temporarily storing incoming data like network packets or file streams.
 
 Pattern Matching: Arrays are used in string algorithms, such as suffix arrays and pattern matching techniques.
+
+# Day-06
+**Pointer**
+What is a Pointer in C++?
+A pointer is a variable that stores the memory address of another variable instead of storing a direct value.
+Pointers are powerful for:
+
+# Dynamic memory allocation
+Efficient array and string handling
+Passing large objects to functions without copying
+Implementing data structures like linked lists, trees, etc.
