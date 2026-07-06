@@ -135,3 +135,14 @@ Pointers are powerful for:
 Efficient array and string handling
 Passing large objects to functions without copying
 Implementing data structures like linked lists, trees, etc.
+# Day-07
+# Structure :
+A structure groups multiple variables of different data types under a single name. 
+Every member in a structure has its own independent memory location, meaning all members can hold values simultaneously.
+# Union :
+A union is similar to a structure ,but all of its members share the exact same  memory location. Consequently ,a union can only hold a value for one member at a time.
+
+# Enumeration :
+An enumeration is a user-defined type consisting of a fixed set of named integer constants. It replaces magic numbers with readable words, making your code significantly easier to understand and maintain.
+**Behavior of enum**
+By default, the first element equals to 0, the second equals to 1 and so on, unless you manuallly assign them values.
