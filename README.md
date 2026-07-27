@@ -146,3 +146,8 @@ A union is similar to a structure ,but all of its members share the exact same  
 An enumeration is a user-defined type consisting of a fixed set of named integer constants. It replaces magic numbers with readable words, making your code significantly easier to understand and maintain.
 **Behavior of enum**
 By default, the first element equals to 0, the second equals to 1 and so on, unless you manuallly assign them values.
+
+# Object Oriented Programming
+Object-Oriented Programming (OOP) in C++ organizes code into classes and objects, making it modular, reusable, and easier to maintain compared to procedural programming. It is built on four main principles: Encapsulation, Abstraction, Inheritance, and Polymorphism.
+
+Classes and Objects A class is a blueprint defining attributes (data members) and behaviors (member functions). An object is an instance of a class, representing a real-world entity with state, behavior, and identity.
