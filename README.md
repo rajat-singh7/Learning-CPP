@@ -151,3 +151,28 @@ By default, the first element equals to 0, the second equals to 1 and so on, unl
 Object-Oriented Programming (OOP) in C++ organizes code into classes and objects, making it modular, reusable, and easier to maintain compared to procedural programming. It is built on four main principles: Encapsulation, Abstraction, Inheritance, and Polymorphism.
 
 Classes and Objects A class is a blueprint defining attributes (data members) and behaviors (member functions). An object is an instance of a class, representing a real-world entity with state, behavior, and identity.
+
+# Friend Function:
+**Key Properties of Friend Functions**
+1.Not a Member Function
+
+---Declared inside the class with friend keyword but defined outside.
+---Does not require the scope resolution operator (::) for definition.
+2.Access to Private and Protected Members
+
+---Can directly access private and protected data of the class.
+3.Declaration Inside Class, Definition Outside
+
+---Must be declared inside the class body to grant access rights.
+4.No this Pointer
+
+---Since it’s not a member function, it does not have a this pointer.
+5.Can Be a Normal Function, Member of Another Class, or a Global Function
+
+---Can also be a friend function of multiple classes.
+6.Not Inherited
+
+---Friendship is not inherited by derived classes.
+7.Mutual Friendship Not Automatic
+
+---If class A is a friend of class B, it doesn’t mean class B is a friend of class A unless explicitly declared
