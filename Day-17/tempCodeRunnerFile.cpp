@@ -1,0 +1,1 @@
+friend void GetInfo(Employee emp);
